@@ -1,0 +1,237 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.navbar{
+    height:20vh;
+    width:96vw;
+    margin-left: 2vw;
+    margin-top: 2vw;
+    display: flex;
+}
+#logo{
+    height:95%;
+    width:10%;
+}
+#scl_name{
+    width:75px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5%;
+    border-left: 3px solid black;
+    padding-left: 10%;
+    font-weight: 700;
+    font-size: 2em;
+}
+@media(max-width:1400px)
+{
+    #logo{
+        height:70%;
+        width:25%;
+        margin-top:5%;
+    }
+    #scl_name{
+    width:50px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5%;
+    border-left: 2px solid black;
+    padding-left: 10%;
+    font-weight: 600;
+    font-size: 1em;
+             }
+}
+#more_options{
+    position: absolute;
+    right:1vw;
+    top: 2vh;
+
+}
+#icon{
+    height: 30px;
+    width: 30px;
+}
+.mainbody{
+    margin-left: 2vw;
+    margin-top: 2vh;
+    margin-right: 2vw;
+    overflow: hidden;
+}
+#introduction{
+    margin-top: 50px;
+    text-align: left;
+    font-size: 3em;
+    font-weight: 800;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.scl_photos,.photos{
+    height:90vh;
+    width:90vw;
+}
+.scl_photos{
+    margin-top: 50px;
+}
+.photos{
+    position: absolute;
+}
+
+.nextBtn{
+    width:8%;
+    height:6%;
+    position: relative;
+    top: 2%;
+    left:90%;
+    z-index: 4;
+    display: flex;
+    gap:4%;
+
+}
+#photo1{
+    z-index: 2;
+}
+#nextBtnForward,#nextBtnBackward{
+    height:100%;
+    width: 45%;
+    background-color: darkslateblue;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#nextBtnForward:hover,#nextBtnBackward:hover{
+    background-color: crimson;
+}
+#arrow{
+    height:40%;
+    width:40%;
+    color: beige;
+
+}
+#Streams_intro{
+    margin-top: 10vh;
+    font-size:2.5em;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.streams{
+    height:33.33vh;
+    width: 100%;
+    display: flex;
+    margin-top:6vh;
+    justify-content: space-between;
+}
+.streamOptions{
+    width:23%;
+    height: 100%;
+    background-color: rgb(178, 9, 42);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.25s ease-in 0s;
+}
+.innerStreamBox{
+    height: 80%;
+    width:80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: aliceblue;
+}
+#streamIntros{
+    font-size: 1.5em;
+    font-weight: 500;
+
+}
+.streamOptions:hover{
+    background-color: black;
+}
+.sclQuality{
+    width:100%;
+    height:auto;
+    margin-top: 20vh;
+    background-color: aliceblue;
+    padding-left: 2vw;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+}
+.aboutScl{
+    display: flex;
+    gap:25vw;
+}
+#Question{
+    font-size: 3em;
+    font-weight: 700;
+    width: 33.33vw;
+}
+#answer{
+    font-size: 1em;
+    font-weight: 400;
+    width: 33.33vw;
+    margin-top: 10vh;
+    height: auto;
+}
+.moreAnswers{
+    height: auto;
+    width:50vw;
+
+}
+#headSentence{
+ font-size: 1.5em;
+ font-weight: 700;
+}
+#Sentence{
+    font-size: 1em;
+    font-weight: 400;
+    width: 22vw;
+}
+#row1,#row2{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5vh;
+}
+#rightSide{
+    margin-left: 5vw;
+}
+#labPhoto{
+    height:60%;
+    width: 70%;
+    margin-top: 5%;
+    border-right: 10px;
+}
+.footer{
+    width: 100vw;
+    height:30vh;
+    background-color: rgb(22, 19, 19);
+    color: aliceblue;
+}
+.upperFooter{
+    height:75%;
+    width: 90%;
+    display: flex;
+    justify-content:space-between;
+    margin: 0px 5%;
+    align-items: center;
+}
+#sclname{
+    width: 33.33%;
+    height: auto;
+    font-size: 1em;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif
+}
+a{
+    color: aliceblue;
+}
+.copyright{
+    height: 15%;
+    width: 90%;
+    margin-left:5%;
+    border-top: 1px solid whitesmoke;
+}
